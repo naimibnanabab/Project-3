@@ -142,6 +142,9 @@ header .nav ul li a:hover{
     transition: all 0.5s ease-in 0.1s;
     outline: none;
 }
+/*section 2 End*/
+
+/*section 3 start*/
 .section3{
     width: 100%;
     height: 650px;
@@ -156,4 +159,83 @@ header .nav ul li a:hover{
     width: 670px;
     color: rgba(0, 0, 0, 0.6);
     margin: 0 auto;
+}
+.service{
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 45px;
+}
+.ser1, .ser2{
+    width: 100%;
+    overflow: hidden;
+}
+.ser2{
+    padding-top: 30px;
+}
+.ser1 div, .ser2 div{
+    width: 32%;
+    float: left;
+    padding: 5px;
+    margin: 0 auto;
+}
+.service i{
+    font-size: 45px;
+    color: rgba(0, 0, 0, 0.7);
+}
+.service h1{
+    color: rgba(0, 0, 0, 0.9);
+}
+.service p{
+    color: rgba(0, 0, 0, 0.6);
+}
+.ser1 div:hover{
+    background-color: #8293ff;
+}
+.ser1 div:hover i{
+    color: white;
+}
+.ser1 div:hover h1{
+    color: white;
+}
+.ser1 div:hover p{
+    color: white;
+}
+.ser2 div:hover{
+    background-color: #8293ff;
+}
+.ser2 div:hover i{
+    color: white;
+}
+.ser2 div:hover h1{
+    color: white;
+}
+.ser2 div:hover p{
+    color: white;
+}
+
+/*section 3 End*/
+
+/*section 4 start*/
+
+.section4{
+    width: 100%;
+    height: 300px;
+    background-color: #8293ff;
+}
+.section4 div{
+    float: left;
+    width: 20%;
+    margin: 0 auto;
+    position: relative;
+    top: 100px;
+    left: 220px;
+
+}
+.section4 h1{
+    font-size: 45px;
+    line-height: 0px;
+}
+.section4 h1, p{
+    text-align: center;
+    color: white;
 }
